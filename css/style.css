@@ -1,0 +1,123 @@
+body {
+    background: #FFF;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background: url("../images/header-bg.jpg");
+    height: 250px;
+    background-size: 100%;
+    padding-left: 60px;
+    padding-top: 60px;
+
+}
+
+header img {
+overflow: hidden;
+    height: 250px;
+    width: 250px;
+    position:absolute;
+}
+
+.layer-1{
+    position: absolute;
+    bottom: 380px;
+    right: 8px;
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: mediumpurple;
+   margin-top: 5px;
+}
+
+.flex-element {
+    display: flex;
+    color: black;
+    padding: 15px;
+    background: mediumpurple;
+
+
+}
+
+.flex-container-2 {
+display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+.flex-element-1 {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    border-radius: 7pt;
+    background: #ccccff;
+    flex: 0 0 35em;
+    order: 1;
+
+}
+.flex-element-2 {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7pt;
+    background: #dddd88;
+    flex: 0 0 15em;
+    order: 3;
+}
+.flex-element-3 {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    border-radius: 7pt;
+    background: #ccccff;
+    flex: 1 1 18em;
+    order: 4;
+}
+.flex-element-4 {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    border-radius: 7pt;
+    background: #ccccff;
+    flex: 1 1 5em;
+    order: 2;
+
+}
+.flex-element-5 {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    border-radius: 7pt;
+    background: #ccccff;
+    flex: 1 1 60px;
+    order: 5;
+}
+#content {
+    background: #dcdcdc;
+    float: left;
+    width: 80%;
+    height: 5em;
+}
+
+#clear {
+    clear: both;
+}
+
+.footer {
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 20px;
+
+    background: #ffeebb;
+}
