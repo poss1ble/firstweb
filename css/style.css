@@ -11,7 +11,7 @@ header {
     background-size: 100%;
     padding-left: 60px;
     padding-top: 60px;
-
+position: relative;
 }
 
 header img {
@@ -23,8 +23,8 @@ overflow: hidden;
 
 .layer-1{
     position: absolute;
-    bottom: 380px;
-    right: 8px;
+    bottom: 0;
+    right: 0;
 }
 
 
@@ -48,59 +48,48 @@ overflow: hidden;
 
 }
 
-.flex-container-2 {
+.main-container {
 display:flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-top: 5px;
-    flex-wrap: wrap;
-}
-.flex-element-1 {
-    margin: 4px;
-    padding: 5px;
-    border: 1px solid #8888bb;
-    border-radius: 7pt;
-    background: #ccccff;
-    flex: 0 0 35em;
-    order: 1;
+
 
 }
-.flex-element-2 {
-    margin: 4px;
-    padding: 5px;
-    border: 1px solid #cccc33;
-    border-radius: 7pt;
-    background: #dddd88;
-    flex: 0 0 15em;
-    order: 3;
-}
-.flex-element-3 {
-    margin: 4px;
-    padding: 5px;
-    border: 1px solid #8888bb;
-    border-radius: 7pt;
-    background: #ccccff;
-    flex: 1 1 18em;
-    order: 4;
-}
-.flex-element-4 {
-    margin: 4px;
-    padding: 5px;
-    border: 1px solid #8888bb;
-    border-radius: 7pt;
-    background: #ccccff;
-    flex: 1 1 5em;
-    order: 2;
+.articles {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width:auto;
+    padding: 0;
+    border: 3px dashed #000000;
+
 
 }
-.flex-element-5 {
-    margin: 4px;
-    padding: 5px;
-    border: 1px solid #8888bb;
-    border-radius: 7pt;
-    background: #ccccff;
-    flex: 1 1 60px;
-    order: 5;
+.second-block {
+    display: flex;
+    flex-direction: row;
+}
+.introduction {
+   display: flex;
+    flex-direction: row;
+
+}
+.wellcome {
+   display: flex;
+    flex-direction: row;
+
+}
+.sidebar{
+   display: flex;
+    flex-direction: column;
+
+}
+.main-menu {
+display:flex;
+
+}
+
+.resources {
+display:flex;
 }
 #content {
     background: #dcdcdc;
