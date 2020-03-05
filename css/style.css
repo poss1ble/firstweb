@@ -54,7 +54,7 @@ header img {
 }
 .secondblock {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .articles {
@@ -64,9 +64,7 @@ header img {
 }
 
 .about {
-display:flex;
-
-
+justify-content: flex-end;
 }
 
 .introduction {
@@ -80,19 +78,21 @@ display:flex;
 }
 
 .sidebar {
+height: auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-
+    flex-wrap: wrap;
+    justify-content: space-around;
+align-content: flex-end;
 }
 
 .main-menu {
-    display: flex;
-
+max-width: 100px;
+    text-align: center;
 }
 
 .resources {
-    display: flex;
+
 }
 
 #content {
@@ -111,5 +111,6 @@ display:flex;
     margin: 4px;
     padding: 5px;
     min-height: 20px;
+    text-align: center;
     background: mediumpurple;
 }
