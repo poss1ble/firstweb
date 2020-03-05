@@ -52,6 +52,10 @@ header img {
 
 
 }
+.secondblock {
+    display:flex;
+    flex-direction: row;
+}
 
 .articles {
     display: flex;
@@ -60,6 +64,7 @@ header img {
 }
 
 .about {
+display:flex;
 
 
 }
@@ -69,7 +74,7 @@ header img {
 
 }
 
-.wellcome {
+.welcome {
 
 
 }
@@ -106,6 +111,5 @@ header img {
     margin: 4px;
     padding: 5px;
     min-height: 20px;
-
     background: mediumpurple;
 }
