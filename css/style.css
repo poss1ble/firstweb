@@ -11,23 +11,21 @@ header {
     background-size: 100%;
     padding-left: 60px;
     padding-top: 60px;
-position: relative;
+    position: relative;
 }
 
 header img {
-overflow: hidden;
+    overflow: hidden;
     height: 250px;
     width: 250px;
-    position:absolute;
+    position: absolute;
 }
 
-.layer-1{
+.layer-1 {
     position: absolute;
     bottom: 0;
     right: 0;
 }
-
-
 
 
 .flex-container {
@@ -36,7 +34,7 @@ overflow: hidden;
     flex-wrap: wrap;
     justify-content: space-around;
     background: mediumpurple;
-   margin-top: 5px;
+    margin-top: 5px;
 }
 
 .flex-element {
@@ -49,48 +47,49 @@ overflow: hidden;
 }
 
 .main-container {
-display:flex;
+    display: flex;
     flex-direction: row;
 
 
 }
+
 .articles {
     display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width:auto;
-    padding: 0;
-    border: 3px dashed #000000;
+    flex-wrap: nowrap;
+
+}
+
+.about {
 
 
 }
-.second-block {
-    display: flex;
-    flex-direction: row;
-}
+
 .introduction {
-   display: flex;
-    flex-direction: row;
+
 
 }
+
 .wellcome {
-   display: flex;
-    flex-direction: row;
+
 
 }
-.sidebar{
-   display: flex;
+
+.sidebar {
+    display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 
 }
+
 .main-menu {
-display:flex;
+    display: flex;
 
 }
 
 .resources {
-display:flex;
+    display: flex;
 }
+
 #content {
     background: #dcdcdc;
     float: left;
@@ -108,5 +107,5 @@ display:flex;
     padding: 5px;
     min-height: 20px;
 
-    background: #ffeebb;
+    background: mediumpurple;
 }
