@@ -12,7 +12,9 @@ header {
   padding-left: 60px;
   padding-top: 60px;
   position: relative;
-
+}
+nav ul {
+  padding: 0;
 }
 
 header img {
@@ -35,16 +37,13 @@ header img {
   justify-content: space-around;
   background: #b379ba;
   margin-top: 5px;
-
 }
 .flex-container div {
   border-right: black 1px dashed;
-
 }
 
 .flex-container a {
   text-decoration: none;
-
 }
 
 .flex-element {
@@ -52,13 +51,19 @@ header img {
   color: black;
   padding: 15px;
   background: #b379ba;
+
 }
+.flex-element a {
+  border-right: 1px dotted black;
+  padding-right: 35px;
+}
+
+
 
 .main-container {
   display: flex;
   flex-direction: row;
 }
-
 
 .secondblock {
   display: flex;
@@ -68,43 +73,32 @@ header img {
 .articles {
   display: flex;
   flex-wrap: nowrap;
-    flex-direction: column;
+  flex-direction: column;
 }
 .articles h1 {
   border-bottom: 1px solid black;
-
 }
 .about {
   justify-content: flex-end;
 }
-
 
 .secondblock {
   display: flex;
   flex-direction: row;
 }
 
-
 .sidebar {
   display: flex;
   flex-direction: column;
-flex-basis: 150px;
-
-
-
-
+  flex-basis: 150px;
 }
 
 .sidebar h1 {
   white-space: nowrap;
   display: flex;
-
 }
 
 .main-menu {
-
-
-
 }
 .main-menu a {
   text-decoration: none;
@@ -120,7 +114,6 @@ flex-basis: 150px;
   width: 80%;
   height: 5em;
 }
-
 
 .footer {
   display: block;
