@@ -37,6 +37,11 @@ header img {
   margin-top: 5px;
 
 }
+.flex-container div {
+  border-right: black 1px dashed;
+
+}
+
 .flex-container a {
   text-decoration: none;
 
@@ -83,6 +88,7 @@ header img {
 .sidebar {
   display: flex;
   flex-direction: column;
+flex-basis: 150px;
 
 
 
